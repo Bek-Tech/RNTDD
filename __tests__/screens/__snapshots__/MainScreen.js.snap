@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main screen  takes snapshot 1`] = `
+<View>
+  <Text>
+    main screen
+  </Text>
+</View>
+`;
