@@ -17,8 +17,5 @@ it("takes snapshot",()=>{
   expect(wrapper).toMatchSnapshot()
 })
 
-it("Text length",()=>{
-  expect(renderer.create(<App/>).find('Text').length).toEqual(1)
-})
 
 
