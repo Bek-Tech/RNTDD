@@ -25,7 +25,7 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 const App= () => {
-  return <Text  testId='welcome'>hello</Text>
+  return <Text  testID="welcome" >hello</Text>
 };
 
 

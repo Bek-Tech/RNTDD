@@ -3,12 +3,11 @@
   "runnerConfig": "e2e/config.json",
   "configurations": {
     "ios": {
-      "type": "ios.simulator",
-
       "binaryPath": "ios/build/Build/Products/Debug-iphonesimulator/RNTDD.app",
-      "build": "xcodebuild -workspace ios/RNTDD.xcworkspace -scheme RNTDD -configuration Debug -sdk iphonesimulator -derivedDataPath ios/build",
+      "build": "xcodebuild -project ios/RNTDD.xcodeproj -scheme RNTDD -configuration Debug -sdk iphonesimulator -derivedDataPath ios/build",
+      "type": "ios.simulator",
       "device": {
-        "type": "iPhone 11"
+        "type": "iPhone 11 Pro"
       }
     },
     "android": {
