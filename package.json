@@ -10,7 +10,8 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "react": "16.13.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.0.1",
     "react-native": "0.63.4"
   },
   "devDependencies": {
@@ -19,15 +20,19 @@
     "@babel/runtime": "^7.8.4",
     "@react-native-community/eslint-config": "^1.1.0",
     "babel-jest": "^26.6.3",
+    "detox": "^17.14.6",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.5",
     "eslint": "^6.5.1",
     "jest": "^25.1.0",
+    "jest-circus": "^26.6.3",
     "metro-react-native-babel-preset": "^0.59.0",
     "react-test-renderer": "16.13.1"
   },
   "jest": {
     "preset": "react-native",
-    "setupFilesAfterEnv": ["./testSetup.js"]
+    "setupFilesAfterEnv": [
+      "./testSetup.js"
+    ]
   }
 }
