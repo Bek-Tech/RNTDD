@@ -7,27 +7,13 @@
  */
 
 import React from 'react';
-import {
-  SafeAreaView,
-  StyleSheet,
-  ScrollView,
-  View,
-  Text,
-  StatusBar,
-} from 'react-native';
+import {View, Text} from 'react-native';
+import MainScreen from './src/screens/MainScreen'
 
-import {
-  Header,
-  LearnMoreLinks,
-  Colors,
-  DebugInstructions,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
-
-const App= () => {
-  return <Text  testID="welcome" >hello</Text>
+const App = () => {
+  return <>
+    <MainScreen/>
+    </>
 };
-
-
 
 export default App;
