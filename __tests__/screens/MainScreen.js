@@ -1,4 +1,4 @@
-import MainScreen from '../../screens/MainScreen'
+import MainScreen from '../../src/screens/MainScreen'
 import React from 'react';
 import renderer from 'react-test-renderer';
 

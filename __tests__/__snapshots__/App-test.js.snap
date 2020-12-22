@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`takes snapshot 1`] = `
-<Text>
-  app 
+<Text
+  testID="welcome"
+>
+  hello
 </Text>
 `;
